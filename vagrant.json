@@ -63,7 +63,7 @@
     "environment_vars": [
       "SSH_USER={{user `ssh_username`}}",
       "SSH_KEY={{user `ssh_key`}}"
-    ],
+    ]
   }],
 
 
