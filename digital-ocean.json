@@ -4,7 +4,9 @@
     "hostname": "",
 
     "ssh_username": "",
-    "ssh_key": ""
+    "ssh_key": "",
+
+    "project": ""
   },
 
 
@@ -14,7 +16,7 @@
     "api_token": "{{user `api_token`}}",
 
     "droplet_name": "{{user `hostname`}}",
-    "snapshot_name": "Crowdwish {{timestamp}}",
+    "snapshot_name": "{{ user `project` }} {{timestamp}}",
 
     "image": "ubuntu-14-04-x64",
     "region": "London 1",
